@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://vtcefxxefppj"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 10
+anchor_right = 1.0
+offset_left = 357.0
+grow_horizontal = 2
+pivot_offset = Vector2(235, 171)

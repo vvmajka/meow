@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://c0mh7e0smpexj"]
+
+[sub_resource type="TorusMesh" id="TorusMesh_4xowi"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="ResourcePreloader" type="ResourcePreloader" parent="."]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.008884072, -0.048517585, -0.057906628)
+mesh = SubResource("TorusMesh_4xowi")
